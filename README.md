@@ -1,18 +1,1 @@
-# sinatra-template
-
-Use this repository to create new Sinatra apps. 
-
-Optionally, to use `ActiveRecord` for database operations, add to the `app.rb`:
-
-```ruby
-require "sinatra/activerecord"
-```
-
-And in the `config/environment.rb` file add this code block:
-
-```ruby
-configure do
-  # setup a database connection
-  set(:database, { adapter: "sqlite3", database: "db/development.sqlite3" })
-end
-```
+A website that allows the user to guess the age of a living person with a Wikipedia profile. The website makes a call to the Wikipedia API, uses regex to isolate the target person's age, then compares it to the guess. Also includes custom CSS.
