@@ -1,7 +1,14 @@
 body {
-  background-color: blue;
+  background-color: skyblue;
+  font-family: Arial, sans-serif;
 }
 
 h1 {
-  size: 40px
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
